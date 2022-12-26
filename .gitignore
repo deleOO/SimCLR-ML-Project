@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Implementation
+saved_models/
+saved_plots/
+Cifar100_SimCLR_Implementation.ipynb
+Cifar100_Downstream_task_LINEAR.ipynb
+Cifar100_Downstream_task_KNN.ipynb
+
+# Cifar-100
+cifar-100-python.tar.gz
+cifar-100-python/
+
+# No stop colab
+no_stop_colab.py
+
