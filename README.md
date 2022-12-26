@@ -40,7 +40,10 @@ pip install -r requirements.txt
 python download_cifar100.py
 ```
 
-5. Use the jupyter notebook in the repository to play with the code for SimCLR implementation `Cifar100_SimCLR_Implementation.ipynb` and for the downstream tasks (Linear Classifier `Cifar100_Downstream_task_LINEAR.ipynb`and KNN classifier `Cifar100_Downstream_task_KNN.ipynb`)
+5. Use the jupyter notebooks in the repository to play with the code 
+- `Cifar100_SimCLR_Implementation.ipynb`
+- `Cifar100_Downstream_task_LINEAR.ipynb`
+- `Cifar100_Downstream_task_KNN.ipynb`
 
 ### Google Colab setup
 You can run the code on Google Colab. To do so, you have just to follow the instructions in the notebook that we provide.
