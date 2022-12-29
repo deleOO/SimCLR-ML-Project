@@ -10,7 +10,6 @@ def unpickle(file):
         dict = pickle.load(fo, encoding='bytes')
     return dict
 
-# define a fucntion to download cifar100 dataset
 def download_cifar100():
     """
     Download CIFAR-100 dataset
