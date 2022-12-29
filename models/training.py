@@ -5,7 +5,6 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import torchvision.datasets as dset
 from torchvision import datasets, transforms, models
-# from torchvision.models.utils import load_state_dict_from_url
 from torch import Tensor
 import numpy as np
 
