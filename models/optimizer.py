@@ -25,7 +25,7 @@ class LARS(Optimizer):
     def __init__(
         self,
         params,
-        lr=required,
+        lr=required, 
         momentum=0.9,
         use_nesterov=False,
         weight_decay=0.0,
@@ -75,8 +75,7 @@ class LARS(Optimizer):
         self.classic_momentum = classic_momentum
         self.eeta = eeta
         self.exclude_from_weight_decay = exclude_from_weight_decay
-        # exclude_from_layer_adaptation is set to exclude_from_weight_decay if the
-        # arg is None.
+ 
         if exclude_from_layer_adaptation:
             self.exclude_from_layer_adaptation = exclude_from_layer_adaptation
         else:
@@ -106,15 +105,11 @@ class LARS(Optimizer):
 
                 param_state = self.state[p]
 
-                # TODO: get param names
-                # if self._use_weight_decay(param_name):
                 grad += self.weight_decay * param
 
                 if self.classic_momentum:
                     trust_ratio = 1.0
 
-                    # TODO: get param names
-                    # if self._do_layer_adaptation(param_name):
                     w_norm = torch.norm(param)
                     g_norm = torch.norm(grad)
 
